@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  font-family: 'Manrope', 'Avenir Next', sans-serif;
+  color: #25322d;
+  background: #f7f8f4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 400;
+  --bg: #f7f8f4;
+  --surface: #fff;
+  --surface-raised: #ffffff;
+  --surface-soft: #eef2ed;
+  --surface-mint: #e6f3ea;
+  --ink: #25322d;
+  --ink-strong: #192520;
+  --muted: #738079;
+  --faint: #9da8a1;
+  --line: #dfe5de;
+  --line-strong: #cfd9d1;
+  --green: #28694e;
+  --green-dark: #1c513d;
+  --green-soft: #e6f3ea;
+  --coral: #d96b4e;
+  --coral-soft: #f8e9e3;
+  --blue: #4f7287;
+  --blue-soft: #eaf0f4;
+  --yellow: #f1c665;
+  --shadow: 0 20px 54px rgba(35, 56, 45, 0.08);
+  --mono: 'DM Mono', Consolas, monospace;
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  color: #e0e9e3;
+  background: #171d19;
+  --bg: #171d19;
+  --surface: #202923;
+  --surface-raised: #252f29;
+  --surface-soft: #26342c;
+  --surface-mint: #24392d;
+  --ink: #dce6df;
+  --ink-strong: #f3f7f3;
+  --muted: #a2afa6;
+  --faint: #76857b;
+  --line: #354239;
+  --line-strong: #435448;
+  --green: #8cc9a6;
+  --green-dark: #b0dec0;
+  --green-soft: #263c2e;
+  --coral: #f19b7d;
+  --coral-soft: #402d27;
+  --blue: #9cbacc;
+  --blue-soft: #2c3940;
+  --yellow: #f1c665;
+  --shadow: 0 20px 54px rgba(0, 0, 0, 0.22);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; }
+body { min-width: 320px; min-height: 100vh; margin: 0; background: var(--bg); color: var(--ink); font-size: 14px; line-height: 1.55; }
+button, input, textarea, select { font: inherit; }
+button { color: inherit; }
+a { color: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible, summary:focus-visible { outline: 3px solid var(--coral); outline-offset: 3px; }
+::selection { color: #19382a; background: #c9ead5; }
