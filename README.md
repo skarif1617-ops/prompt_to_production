@@ -1,6 +1,6 @@
-# StudentAI Navigator
+# prompt_to_production
 
-Repository: `prompt_to_production`
+## StudentAI Navigator
 
 A student-focused guide to choosing AI tools, learning them responsibly, preparing for interviews, and practicing communication. No account is required; checklists and practice history stay in browser `localStorage`.
 
